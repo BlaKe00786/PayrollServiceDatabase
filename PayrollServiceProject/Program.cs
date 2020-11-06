@@ -9,6 +9,7 @@ namespace PayrollServiceProject
             Console.WriteLine("Welcome to Employee Payroll!");
             EmployeeRepo repo = new EmployeeRepo();
             repo.checkConnection();
+            repo.GetAllEmployee();
         }
     }
 }

@@ -10,6 +10,7 @@ namespace PayrollServiceProject
             EmployeeRepo repo = new EmployeeRepo();
             repo.checkConnection();
             repo.GetAllEmployee();
+            repo.GetAggregateSalaryDetailsByGender();
         }
     }
 }

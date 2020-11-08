@@ -15,9 +15,9 @@ namespace PayrollServiceProject
         public char Gender { get; set; }
         public decimal BasicPay { get; set; }
         public double Deductions { get; set; }
-        public double TaxablePay { get; set; }
+        public SqlSingle TaxablePay { get; set; }
         public double Tax { get; set; }
-        public double NetPay { get; set; }
+        public SqlSingle NetPay { get; set; }
         public DateTime StartDate { get; set; }
     }
 }
